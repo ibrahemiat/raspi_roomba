@@ -1,4 +1,6 @@
 # poject 3
+*this project is to communcate with irobot roomba using Ros in raspberrypi, so after you install ros kinetic follow the instructions below:
+
 First you need to creat a 'worck space' and a ' package', to do so please follow steps (4.1 ,4.2) in the link below:
 https://www.intorobotics.com/ros-kinetic-publisher-and-subscriber-in-python/
 
