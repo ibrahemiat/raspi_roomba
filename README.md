@@ -35,7 +35,7 @@ $chmod u+x 'file_names.py'
 $sudo usermod -a -G dialout $USER  #give permission to the USB port to serial
 $rosrun 'your_pakage_name' 'file_name.py'
 ```
-For subscriber you will need a publisher, in the code wheel_subscriber change the rospy.subscriber topic name to your publisher topic name(you publisher need to publish int values -500 500)
+For subscriber you will need a publisher, in the code wheel_subscriber change the rospy.subscriber topic name to your publisher topic name(you publisher need to publish int values -500 500), Or you can use publisher for wheel subscriber.
 
 
 
