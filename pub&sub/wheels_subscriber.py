@@ -27,7 +27,7 @@ def callback(data):
 #define the subscriber
 def random_subscriber():
     rospy.init_node('wheel_subscriber')
-    rospy.Subscriber('com',Int32, callback)
+    rospy.Subscriber('rand_no',Int32, callback)
 
     rospy.spin()
 
